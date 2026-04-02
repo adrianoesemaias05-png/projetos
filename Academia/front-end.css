@@ -1,0 +1,279 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8e8e8e;
+    text-align: center;
+    color: #333;
+    margin: 0px;
+}
+
+    header{
+        background-color: #DAA520;
+        color: #fff;
+        padding: 10px;
+    }
+    header h1{
+        margin: 0;
+    }
+
+    nav{
+        margin-top: 0px;
+    }
+    nav a{
+        color: #000000;
+        margin: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover{
+        color: #024a85;
+    }
+
+   
+    footer{
+        background-color: #DAA520;
+        color: #fff;
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+   
+    main{
+        padding: 30px;
+    }
+
+
+     section{
+        background-color: #fff;
+        padding: 20px;
+        width: 30%;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+     .al section{
+        background-color: #fff;
+        padding: 20px;
+        width: 30%;
+        margin: 20px auto;
+        border-radius: 20px;
+        display: flex;
+    }
+   
+    img{
+        width: 300px;
+        margin-top: 15px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+
+   
+ul li{
+    margin: 10px 0;
+}
+.textoJustfy{
+    text-align: justify;
+}
+
+
+input,textarea{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+input[type="submit"],
+input[type="reset"]{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+
+.foto{
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.plano{
+       background-color: #fff;
+        padding: 2000px;
+        width: 60%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgb(0, 0, 0); 
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: sans-serif;
+  background-color: #f4f4f400;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.acomp{
+    
+ background: white;
+  border-radius: 12px;
+  padding: 30px ;
+  
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.black-plan {
+  background-color: #333;
+  color: rgb(0, 0, 0);
+}
+
+.badge {
+  background: #ffb800;
+  color: black;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 20px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.btn-yellow {
+  background-color: #ffb800;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-yellow:hover {
+  background-color: #e6a600;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+.features li { margin-bottom: 10px; }
+.check::before { content: "✔ "; color: #4caf50; font-weight: bold; }
+.not-allowed { opacity: 0.5; text-decoration: line-through; }
+
+body {
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+  padding: 0px;
+}
+
+.card {
+  width: 320px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-header img {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.price-container {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.currency { font-size: 18px; margin-right: 5px; }
+.value { font-size: 32px; }
+.period { font-size: 14px; color: #666; font-weight: normal; }
+
+.loyalty {
+  font-size: 11px;
+  color: #99999900;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #ffb81c; 
+  color: #000000;
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e5a617;
+}
+
+/* Se o fundo cinza for o corpo da página inteira */
+body {
+    background-image: url('IMG/academia.jpeg'); /* Caminho da sua imagem */
+    background-size: cover;          /* Faz a imagem cobrir toda a tela */
+    background-position: center;    /* Centraliza a imagem */
+    background-repeat: no-repeat;   /* Impede que a imagem se repita */
+    background-attachment: fixed;   /* Opcional: mantém o fundo parado ao rolar */
+}
+.h2{
+  color: white;
+}
+
+.pda{
+color: black;
+}
+
+.f{
+  color: #000;
+}
